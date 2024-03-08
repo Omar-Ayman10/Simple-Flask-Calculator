@@ -17,3 +17,7 @@ A link refering to your local machine will appear. Copy and paste it in your bro
 # How to use it 
 Refer to the following link: https://youtu.be/GxdmPyfFOuU
 
+A screenshot of the app:
+![Addition of two numbers](C:\Users\PC\Desktop)
+
+
