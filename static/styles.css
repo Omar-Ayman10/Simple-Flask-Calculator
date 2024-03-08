@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #9dc5d1;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator form {
+    margin-bottom: 20px;
+    text-align: center; /* Center align the inputs */
+}
+
+.calculator input[type="text"]
+{
+    width: 50%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.calculator select
+{
+    width: 30%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-block; 
+}
+
+.calculator input[type="text"]::placeholder,
+.calculator select::placeholder {
+    text-align: center;
+}
+
+.calculator button {
+    width: 30%;
+    padding: 10px;
+    background-color: #360ae6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculator button:hover {
+    background-color: #0eba3f;
+}
+
+.calculator .output {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}

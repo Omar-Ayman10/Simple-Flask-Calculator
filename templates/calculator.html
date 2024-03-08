@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+ 
+  <div class="calculator">
+    <form action="/calculator" method="POST">
+        <input type="text" name="first_number" placeholder="Enter a number"><br>
+        <input type="text" name="second_number" placeholder="Enter a number"><br>
+        <select name="operation">
+            <option value="Add">+</option>
+            <option value="Subtract">-</option>
+            <option value="Multiply">&times;</option>
+            <option value="Divide">/</option>
+        </select><br>
+        <button type="submit">Calculate</button>
+    </form>
+    <div class="result">
+    {% if result}
+          <input type="text" class="output" value="{{ result }}" readonly>
+    {% else %}
+        <input type="text" class="output" placeholder="Result" readonly>
+    {% endif %}
+    </div>
+  </div>
+</body>
+</html>
