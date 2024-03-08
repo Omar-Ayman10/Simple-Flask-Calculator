@@ -1,5 +1,5 @@
 # Project title
-This is a simple calculator built using Flask, a Python web framework. It performs addition, subtraction, multiplication, and divsion between two numbers. To use it, enter two numbers in two input fields and choose the operation you want to perform on them, then click on "Calculate" button. This app was built as a lab assignment of CIE 460.
+This is a simple calculator built using Flask, a Python web framework. It performs addition, subtraction, multiplication, and division between two numbers. To use it, enter two numbers in two input fields and choose the operation you want to perform on them, then click on "Calculate" button. This app was built as a lab assignment of CIE 460.
 
 # Installation 
 Make sure you have Python 3.7 or higher on your machine. Then, install Flask using the following command:
@@ -12,7 +12,7 @@ To run the project, open the terminal in the working directory of the project an
     set FLASK_APP=app.py
     flask run
 ```
-A link refering to your local machine will appear. Copy and paste it in your browser.
+A link referring to your local machine will appear. Copy and paste the link in the browser.
 
 # How to use it 
 Refer to the following link: https://youtu.be/GxdmPyfFOuU
