@@ -18,6 +18,7 @@ A link refering to your local machine will appear. Copy and paste it in your bro
 Refer to the following link: https://youtu.be/GxdmPyfFOuU
 
 A screenshot of the app:
-![Addition of two numbers](C:\Users\PC\Desktop)
+![Addition of two numbers](![Test](https://github.com/Omar-Ayman10/Simple-Flask-Calculator/assets/122884484/f62a779a-a8f7-46ef-9c9c-a9b4a71b8010)
+)
 
 
